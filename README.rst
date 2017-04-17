@@ -53,29 +53,25 @@ harnesses, you get Cookiecutter_ to do all the work.
 
 It prompts you for information that it uses to create the app, with defaults in square brackets. Answer them::
 
-    Cloning into 'cookiecutter-djangopackage'...
-    remote: Counting objects: 49, done.
-    remote: Compressing objects: 100% (33/33), done.
-    remote: Total 49 (delta 6), reused 48 (delta 5)
-    Unpacking objects: 100% (49/49), done.
-    full_name [Your full name here]: Daniel Roy Greenfeld
+    full_name [Your full name here]: Danny Roy Greenfeld
     email [you@example.com]: pydanny@gmail.com
     github_username [yourname]: pydanny
-    project_name [dj-package]: Blogging-for-Humans
-    repo_name [blogging_for_humans]:
-    app_name [blogging_for_humans]:
+    project_name [Django Package]: Blogging-for-Humans
+    repo_name [dj-package]: 
+    app_name [dj_package]: 
+    app_config_name [DjPackageConfig]: 
     project_short_description [Your project description goes here]: A sample Django package
     models [Comma-separated list of models]: Scoop, Flavor
-    django_versions [1.8,1.9,1.10]:
-    version [0.1.0]:
-    create_example_project [N]:
+    django_versions [1.8,1.9,1.10]: 
+    version [0.1.0]: 
+    create_example_project [N]: 
     Select open_source_license:
     1 - MIT
     2 - BSD
     3 - ISCL
     4 - Apache Software License 2.0
     5 - Not open source
-    Choose from 1, 2, 3, 4, 5 [1]:
+    Choose from 1, 2, 3, 4, 5 [1]: 
 
 Enter the project and take a look around::
 
